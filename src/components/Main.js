@@ -1,14 +1,17 @@
-import React, {Component} from 'react';
-import './Main.css';
+import React, {Component,} from 'react';
+import { BsFillPlusCircleFill } from "react-icons/bs";
+import './css/Main.css';
 
 class Main extends Component{
   render() {
     return(
       <main id='main' className='main'>
-        {/* 영상삽입 */}
         <div className='main_image'>
-          <p className='main_text1'>반려동물을 위한 예약관리 및 상태 케어</p>
-          <p className='main_text2'>Reservation management and health care for pets</p>
+        <video autoPlay loop muted playsInline width='100%'>
+          <source src={'/videos/main_video.mp4'} type='video/mp4' />
+        </video>
+          <p className='main_text1 hide'>반려동물을 위한 예약관리 및 상태 케어</p>
+          <p className='main_text2 hide'>Reservation management and health care for pets</p>
         </div>
 
         <div className='aboutUs_wrap'>
@@ -34,17 +37,20 @@ class Main extends Component{
           <p className='today_datetime'>오늘 날짜, 현재 시각</p>
           <ul className='calendarToday_list'>
             <li>
-              번호
+              <span className='todayList_number'>1</span>
+              <span className='todayList_time'>시간</span>
+              <span className='todayList_text'>내용</span>
+              <input type='checkbox' />
             </li>
           </ul>
-          <a href='#'>상태  추가하기</a>
-          <a href='#'>일정  추가하기</a>
+          <div className='add_btn'>
+            <a href='#'>상태<BsFillPlusCircleFill className='add_condition' /></a>
+            <a href='#'>일정<BsFillPlusCircleFill className='add_plan' /></a>
+          </div>
         </div>
       </main>
     );
   }
 }
-
-/* https://velog.io/@soonmac/React-%EA%B0%84%EB%8B%A8%ED%95%9C-%ED%88%AC%EB%91%90%EB%A6%AC%EC%8A%A4%ED%8A%B8-%EB%A7%8C%EB%93%A4%EA%B8%B0 */
 
 export default Main;

@@ -1,0 +1,10 @@
+.About_US{
+  clear:both;
+  position:relative;
+  top:90px;
+  width:100%;
+  padding:1rem;
+  box-sizing:border-box;
+  margin-bottom:100px;
+  border:1px solid green;
+}
