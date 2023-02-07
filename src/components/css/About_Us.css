@@ -1,4 +1,5 @@
 .About_US{
+  background:url();
   clear:both;
   position:relative;
   top:90px;
@@ -7,4 +8,66 @@
   box-sizing:border-box;
   margin-bottom:100px;
   border:1px solid green;
+  text-align:center;
+  /* color:#fff; */
+}
+
+.About_Us_txt{
+  border:1px solid orange;
+  padding:1rem;
+  margin-bottom:3rem;
+}
+.About_Us_txt h2{
+  font-size:1.5rem;
+  margin-bottom:1rem;
+}
+.About_Us_en{
+  font-size:1.3rem;
+  margin-bottom:2rem;
+}
+.siteName{
+  font-size:2rem;
+  font-weight:600;
+}
+
+.Care_txt{
+  border:1px solid orange;
+  padding:1rem 5rem;
+  margin-bottom:3rem;
+}
+.Care_txt h3{
+  font-size:1.7rem;
+  margin-bottom:1rem;
+  font-weight:600;
+}
+.Care_txt p{
+  line-height:2rem;
+}
+
+.Calendar_txt{
+  border:1px solid orange;
+  padding:1rem 5rem;
+  margin-bottom:3rem;
+}
+.Calendar_txt h3{
+  font-size:1.7rem;
+  margin-bottom:1rem;
+  font-weight:600;
+}
+.Calendar_txt p{
+  line-height:2rem;
+}
+
+.MyPet_txt{
+  border:1px solid orange;
+  padding:1rem 5rem;
+  margin-bottom:3rem;
+}
+.MyPet_txt h3{
+  font-size:1.7rem;
+  margin-bottom:1rem;
+  font-weight:600;
+}
+.MyPet_txt p{
+  line-height:2rem;
 }

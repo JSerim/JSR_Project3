@@ -5,9 +5,11 @@ class About_Us extends Component{
   render() {
     return(
       <div className='About_US'>
-        <h2>나만의 반려동물 관리를 위한 맞춤형 케어</h2>
-        <p>My pet's life care Platform</p>
-        <p>With Pet</p>
+        <div className='About_Us_txt'>
+          <h2>나만의 반려동물 관리를 위한 맞춤형 케어</h2>
+          <p className='About_Us_en'>My pet's life care Platform</p>
+          <p className='siteName'>With Pet</p>
+        </div>
         <div className='Care_txt'>
           <h3>Care Service</h3>
           <p>주변에 있는 동물병원, 애견유치원, 애견호텔, 미용샵 등 케어 시설의
@@ -22,7 +24,7 @@ class About_Us extends Component{
             <br/>반려동물의 식사량, 배변상태, 기타 특이사항들을 간편하게 기록하고 건강상태를 관리하세요.
           </p>
         </div>
-        <div className='My Pet_txt'>
+        <div className='MyPet_txt'>
           <h3>My Pet</h3>
           <p>반려동물의 이름, 성별, 나이, 품종, 성격, 사진, 질병 등 기타 특이사항을 등록해두세요.
             <br/>케어시설 예약 시 해당 센터에서 미리 내 반려동물의 정보를 확인할 수 있습니다.
