@@ -1,8 +1,4 @@
-.About_US{
-  background:url(../../../public/images/dogcat.jpg) no-repeat center;
-  background-attachment:fixed;
-  background-size:cover;
-  clear:both;
+.Care{
   position:relative;
   top:87px;
   width:100%;
@@ -10,29 +6,11 @@
   box-sizing:border-box;
   margin-bottom:87px;
   text-align:center;
-  color:#fff;
+  border:1px solid green;
 }
-
-.About_Us_txt{
-  padding:2rem;
-  margin-bottom:3rem;
-}
-.About_Us_txt h2{
-  font-size:1.8rem;
-  margin-bottom:1rem;
-}
-.About_Us_en{
-  font-size:1.6rem;
-  margin-bottom:2rem;
-}
-.siteName{
-  font-size:3rem;
-  font-weight:600;
-}
-
 .Care_txt{
   padding:1rem 7rem;
-  margin-bottom:4rem;
+  margin-bottom:3rem;
 }
 .Care_txt h3{
   font-size:2rem;
@@ -41,33 +19,5 @@
 }
 .Care_txt p{
   line-height:2.5rem;
-  font-size:1.3rem;
-}
-
-.Calendar_txt{
-  padding:1rem 7rem;
-  margin-bottom:4rem;
-}
-.Calendar_txt h3{
-  font-size:2rem;
-  margin-bottom:1rem;
-  font-weight:600;
-}
-.Calendar_txt p{
-  line-height:2.5rem;
-  font-size:1.3rem;
-}
-
-.MyPet_txt{
-  padding:1rem 7rem;
-  margin-bottom:5rem;
-}
-.MyPet_txt h3{
-  font-size:2rem;
-  margin-bottom:1rem;
-  font-weight:600;
-}
-.MyPet_txt p{
-  line-height:2.5rem;
-  font-size:1.3rem;
+  font-size:1.2rem;
 }
