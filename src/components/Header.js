@@ -9,7 +9,7 @@ class Header extends Component{
         <nav>
           <a href='#'>Login</a>
           <a href='#'>About Us</a>
-          <a href='#'>Care Service</a>
+          <a href='#'>Care</a>
           <a href='#'>Calendar</a>
           <a href='#'>My Pet</a>
         </nav>
