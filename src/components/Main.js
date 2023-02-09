@@ -17,17 +17,22 @@ class Main extends Component{
         <div className='aboutUs_wrap'>
           <h2 className='aboutUs_title'>About Us</h2>
           <a href='#'>Show All</a>
-          <div className='aboutUs_cont1'>
-            <p className='aboutUs_cont1_title'>Care Service</p>
-            <p>병원, 유치원, 호텔, 미용샵 등 쉽게 찾고 예약하세요</p>
-          </div>
-          <div className='aboutUs_cont2'>
-            <p className='aboutUs_cont2_title'>Calendar</p>
-            <p>내 예약 현황, 반려동물의 상태 등을 기록하고 관리하세요</p>
-          </div>
-          <div className='aboutUs_cont3'>
-            <p className='aboutUs_cont3_title'>My Pet</p>
-            <p>내 반려동물의 정보를 등록하고 시설에 공유하여 맞춤형 서비스를 받아보세요</p>
+          <div className='cont_wrap'>
+            <div className='aboutUs_cont1'>
+              <img className='aboutusIcon' src='/images/map.gif' alt='' />
+              <p className='aboutUs_cont1_txt'>병원, 유치원, 호텔, 미용샵 등 쉽게 찾고 예약하세요.</p>
+              <p className='aboutUs_cont1_title'>Care Service</p>
+            </div>
+            <div className='aboutUs_cont2'>
+              <img className='aboutusIcon' src='/images/calendar.gif' alt='' />
+              <p>내 예약 현황, 반려동물의 상태 등을 기록하고 관리하세요</p>
+              <p className='aboutUs_cont2_title'>Calendar</p>
+            </div>
+            <div className='aboutUs_cont3'>
+              <img className='aboutusIcon' src='/images/notebook.gif' alt='' />
+              <p>내 반려동물의 정보를 등록하고 시설에 공유하여 맞춤형 서비스를 받아보세요</p>
+              <p className='aboutUs_cont3_title'>My Pet</p>
+            </div>
           </div>
         </div>
 
