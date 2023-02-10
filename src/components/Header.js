@@ -8,7 +8,7 @@ class Header extends Component{
         <h1 className='logo'><a href='/'>위드펫</a></h1>
         <nav>
           <a href='#'>Login</a>
-          <a href='#'>About Us</a>
+          <a href=''>About Us</a>
           <a href='#'>Care</a>
           <a href='#'>Calendar</a>
           <a href='#'>My Pet</a>
